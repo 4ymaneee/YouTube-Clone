@@ -1,0 +1,207 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&family=Roboto:wght@100;300;400;500;700;900&family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: "Roboto", "Arial", sans-serif;
+}
+
+/* Header styling */
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px 21px;
+}
+
+/* Left section styling */
+
+.left-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.left-section img {
+    width: 140px;
+    padding-left: 14px;
+    cursor: pointer;
+}
+
+/* Mid section styling */
+
+.mid-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mid-section form {
+    margin-left: -30px;
+    display: flex;
+    height: 41px;
+    width: 600px;
+}
+
+.mid-section input {
+    font-size: 15px;
+    font-weight: 500;
+    padding: 0 13px 0px;
+    width: 100%;
+    border-radius: 20px 0 0 20px;
+    color: black;
+    border: 1px solid grey;
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
+    border-right: none;
+}
+
+.mid-section .search {
+    display: flex;
+    font-size: 25px;
+    align-items: center;
+    justify-content: center;
+    background-color: #f8f8f8;
+    border-radius: 0 20px 20px 0;
+    border: 1px solid grey;
+    width: 70px;
+    height: 41px;
+}
+
+.mid-section .mic {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 13px;
+    background-color: #f8f8f8;
+    border-radius: 50%;
+    padding: 10px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+/* Hovering mic and search icon styling */
+
+.search:hover,
+.mic:hover {
+    background-color: #ecebeb;
+}
+
+/* Right section styling */
+
+.right-section {
+    margin-right: 12px;
+}
+
+.right-section a {
+    text-decoration: none;
+    color: black;
+    padding-left: 14px;
+}
+
+.right-section span {
+    font-size: 29px;
+    font-weight: normal;
+    cursor: pointer;
+}
+
+/* Home Container styling */
+
+.home-container {
+    width: 100%;
+    height: calc(100vh - 56px);
+    display: flex;
+}
+
+/* Aside section styling */
+aside {
+    background-color: white;
+    height: 100%;
+    width: 240px;
+    overflow-y: auto;
+}
+
+nav {
+    height: 100%;
+    margin: 15px 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+nav .column {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding: 7.5px 12px;
+    border-radius: 14px;
+    margin-bottom: 2px;
+}
+
+nav .column:hover {
+    background-color: #0f0f0f0b;
+}
+
+nav .column .txt {
+    font-weight: 400;
+    font-size: 14px;
+    margin-left: 20px;
+    line-height: 2em;
+    color: black;
+}
+
+nav .active {
+    background-color: #0f0f0f0b;
+
+}
+
+nav .active:hover {
+    background-color: #0f0f0f12;
+
+}
+
+nav .active .txt {
+    font-weight: 500;
+}
+
+hr {
+    border: 1px solid #ecebeb;
+    margin: 10px 0;
+}
+
+p {
+    font-size: 15.5px;
+    font-weight: 400;
+    margin-left: 11px;
+    padding-bottom: 5px;
+}
+
+nav .column img {
+    width: 32px;
+    height: 32px;
+    margin-left: -2.8px;
+    border-radius: 50%;
+
+}
+
+nav .sub .txt {
+    margin-left: 14px;
+}
+
+nav .final {
+    border: 1px solid transparent;
+    margin: 5px 0;
+    margin-bottom: 0px;
+}
